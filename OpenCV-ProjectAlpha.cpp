@@ -4,6 +4,7 @@
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2\opencv.hpp>  
+#include<opencv2/imgproc/imgproc.hpp>
 #include <opencv2\core\mat.hpp>
 #include <thread>
 #include<functional>
@@ -13,7 +14,29 @@
 using namespace cv;
 using namespace std;
 
-Mat getChannel(Mat img,Mat dst, int channel) {
+const int QY[8][8] =
+{
+{16,11,10,16,24,40,51,61},
+{12,12,14,19,26,58,60,55},
+{14,13,16,24,40,57,69,56},
+{14,17,22,29,51,87,80,62},
+{18,22,37,56,68,109,103,77},
+{24,35,55,64,81,104,113,92},
+{49,64,78,87,103,121,120,101},
+{72,92,95,98,112,100,103,99}
+};
+const int QC[8][8] = {
+	{17,18,24,47,99,99,99,99},
+	{18,21,26,66,99,99,99,99},
+	{24,26,56,99,99,99,99,99},
+	{47,66,99,99,99,99,99,99},
+	{99,99,99,99,99,99,99,99},
+	{99,99,99,99,99,99,99,99},
+	{99,99,99,99,99,99,99,99},
+	{99,99,99,99,99,99,99,99}
+};
+
+Mat getChannel(Mat img, Mat dst, int channel) {
 
 	for (int u = 0; u < img.rows; u++) {
 
@@ -62,133 +85,272 @@ vector<vector<double>>  dDCT(vector<vector<double>> g) {
 	}
 	return G;
 }
-int main()
+
+void dDCT(Mat& src, Mat& dst)
 {
+	double pi = 3.141592657;
+	Mat C_Mat(src.rows, src.cols, CV_64FC1);
+	Mat CT_Mat(src.rows, src.cols, CV_64FC1);
 
-	
-	String geryimgPath = "C://Users//qq941//Pictures//imagingbook-images-en1//imgs-by-chap//ch02//airfield-05small-auto.tif";
-	String rgbimgPath = "C://Users//qq941//Pictures//imagingbook-images-en1//imgs-by-chap//ch12//alps-01.jpg";
-	String rgbimgPath1 = "C://Users//qq941//Desktop//22596167.jpg";
-	String rgbimgPath2 = "C://Users//qq941//Pictures//image//GirlWithHat1.jpg";
+	for (int j = 0; j < C_Mat.rows; j++)
+		C_Mat.at<double>(0, j) = sqrt(2.0 / (C_Mat.rows)) * sqrt(1.0 / 2);
 
-	Mat  rgbMat = LoadImageAndShow("rgbimg", rgbimgPath, 1);
-	constexpr int M = 8;
-	constexpr int N = 8;
-	int rows = rgbMat.rows;
-	int cols = rgbMat.cols;
+	for (int i = 1; i < C_Mat.rows; i++)
+		for (int j = 0; j < C_Mat.cols; j++)
+			C_Mat.at<double>(i, j) = sqrt(2.0 / (C_Mat.rows)) * cos(pi * (i - 1) * (2 * j - 1) / 2 / (C_Mat.rows));
 
-	Mat img;
-	img = imread(rgbimgPath);
-	Mat b(img.rows, img.cols, CV_8UC3, Scalar(0, 0, 0));
-	Mat g(img.rows, img.cols, CV_8UC3, Scalar(0, 0, 0));
-	Mat r(img.rows, img.cols, CV_8UC3, Scalar(0, 0, 0));
+	CT_Mat = C_Mat.t();
 
-	getChannel(img, r, RED_CHANNEL);
-	getChannel(img, g, GREEN_CHANNEL);
-	getChannel(img, b, BLUE_CHANNEL);
-
-	//for (int u = 0; u < img.rows;u++) {
-	//
-	//	for (int v = 0; v < img.cols; v++) {
-
-	//		r.at<Vec3b>(u, v)[2] = img.at<Vec3b>(u, v)[2];// Color of Red
-	//		g.at<Vec3b>(u, v)[1] = img.at<Vec3b>(u, v)[1];// Color of Green
-	//		b.at<Vec3b>(u, v)[0] = img.at<Vec3b>(u, v)[0];// Color of Blue
-	//	}
-	//}
-	
-	imshow("r", r);
-	imshow("g", g);
-	imshow("b", b);
-
-	waitKey();
-
-
-	
-	vector<vector<double>> rgfull(rows, vector<double>(cols));
-	vector<vector<double>> ggfull(rows, vector<double>(cols));
-	vector<vector<double>> bgfull(rows, vector<double>(cols));
-	for(int x=0;x<rows/8;x++){
-		for(int y=0; y<cols/8; y++){
-			vector<vector<double>> gr(M, vector<double>(N));
-			vector<vector<double>> gg(M, vector<double>(N));
-			vector<vector<double>> gb(M, vector<double>(N));
-	for (int m = 0; m < M; m++) {
-		for (int n = 0; n < N; n++) {
-			gr[m][n] = (double)r.at<Vec3b>(m + x * M, n + y * N)[2];
-			gg[m][n] = (double)g.at<Vec3b>(m + x * M, n + y * N)[1];
-			gb[m][n] = (double)b.at<Vec3b>(m + x * M, n + y * N)[0];
-		}
-	}
-
-	vector<vector<double>>Gr(M, vector<double>(N));
-	
-	thread tr(DCT, ref(gr),ref(Gr));
-	
-	vector<vector<double>> Gg(M, vector<double>(N));
-	thread tg(DCT, ref(gg), ref(Gg));
-	//Gg = DCT(gg);
-
-	vector<vector<double>> Gb(M, vector<double>(N));
-	//Gb = DCT(gb);
-	thread tb(DCT, ref(gb),ref(Gb));
-
-	tr.join();
-	tg.join();
-	tb.join();
-
-	vector<vector<double>> igr(M, vector<double>(N));
-	thread tir(iDCT, Gr, ref(igr));
-	//igr = iDCT(Gr);
-
-	vector<vector<double>> igg(M, vector<double>(N));
-	//igg = iDCT(Gg);
-	thread tig(iDCT, ref(Gg), ref(igg));
-
-	vector<vector<double>> igb(M, vector<double>(N));
-	//igb= iDCT(Gb);
-	thread tib(iDCT, ref(Gb), ref(igb));
-	tir.join();
-	tig.join();
-	tib.join();
-
-
-	//copy.data[i * cols + j] = pixels[i][j] = (int)image.ptr<uchar>(i)[j];
-
-	
-	for (int i = 0; i < M; i++) {
-		for (int j = 0; j < N; j++) {
-			rgfull[i + x * 8][j + y * 8] = igr[i][j];
-			ggfull[i + x * 8][j + y * 8] = igg[i][j];
-			bgfull[i + x * 8][j + y * 8] = igb[i][j];
-			
-		}
-	}
-	
-	}
-	}
-
-	Mat copy(img.rows, img.cols, CV_8UC3, Scalar(0, 0, 0));
-
-
-
-	
-	for (int x = 0; x < rows ; x++) {
-		for (int y = 0; y < cols ; y++) {
-			//gr[m][n] = (double)r.at<Vec3b>(m + x * M, n + y * N)[2];
-			copy.at<Vec3b>(x * cols + y)[2]=rgfull[x][y];
-			copy.at<Vec3b>(x * cols + y)[1] = ggfull[x][y];
-			copy.at<Vec3b>(x * cols + y)[0] = bgfull[x][y];
-		}
-	}
-	
-	imshow("IDCT original img", copy);
-	waitKey();
-
-		
-
-
-		return 0;
-
-		
+	dst = C_Mat * src * CT_Mat;
 }
+
+Mat splitedDCT(Mat rgbMat) {
+	if (rgbMat.empty())return rgbMat;
+	Mat dst;
+	double pi = 3.141592657;
+	rgbMat.convertTo(rgbMat, CV_64FC1);
+	Mat C_Mat(rgbMat.rows, rgbMat.cols, CV_64FC1);
+	Mat CT_Mat(rgbMat.rows, rgbMat.cols, CV_64FC1);
+
+	for (int j = 0; j < C_Mat.rows; j++)
+		C_Mat.at<double>(0, j) = sqrt(2.0 / (C_Mat.rows)) * sqrt(1.0 / 2);
+
+	for (int i = 1; i < C_Mat.rows; i++)
+		for (int j = 0; j < C_Mat.cols; j++)
+			C_Mat.at<double>(i, j) = sqrt(2.0 / (C_Mat.rows)) * cos(pi * (i - 1) * (2 * j - 1) / 2 / (C_Mat.rows));
+
+	CT_Mat = C_Mat.t();
+
+	return dst = C_Mat * rgbMat * CT_Mat;
+}
+
+vector<Mat> splitedIDCT(Mat& rgbMat) {
+	if (rgbMat.empty())return rgbMat;
+	vector<Mat> dst;
+}
+
+vector<Mat> splitMatTo8s(Mat mat) {
+
+	if (mat.empty())return mat;
+	int row = mat.rows / 8;
+	int col = mat.cols / 8;
+	vector<Mat> pieces(row * col);
+	
+	for (int i = 0; i < row; ++i) {
+		for (int j = 0; j < col; ++j) {
+			pieces[i * col + j].create(8, 8, CV_64FC1);
+			for (int u = 0; u < 8; ++u) {
+				for (int v = 0; v < 8; ++v) {
+					pieces[i * col + j].at<double>(u, v) = mat.at<double>(u + i * 8, v + j * 8);
+				}
+			}
+
+		}
+	}
+	return pieces;
+}
+/***********************************************华丽的分隔符*****************************************************************/
+void bgr2Yuv(Mat src,Mat &dst) {
+	cvtColor(src, dst, COLOR_BGR2YUV);
+}
+
+vector<Mat> splitYuvChannels(Mat src) {
+	vector<Mat> dst;
+	
+	split(src, dst);
+	return dst;
+}
+
+void quantify(Mat& src, const int quantifyArray[8][8]) {
+	int rows = src.rows;
+	int cols = src.cols;
+	for (int i = 0; i < rows/8; ++i) {
+		for (int j = 0; j < cols/8; ++j) {
+			for (int u = 0; u < 8; ++u) {
+				for (int v = 0; v < 8; ++v) {
+					int x = u + i * 8;
+					int y = v + j * 8;
+					
+						src.at<double>(x,y) = round(src.at<double>(x, y) / quantifyArray[u][v]);
+				}
+			}
+		}
+	}
+
+}
+
+Mat mergeYUVChannels(vector<Mat> idctYuv) {
+	Mat mergedIDCTYuv(idctYuv[0].size(), CV_8UC3);
+	if (idctYuv.empty()) return mergedIDCTYuv;
+	for (int i = 0; i < idctYuv[0].rows; ++i) {
+		for (int j = 0; j < idctYuv[0].cols; ++j) {
+			mergedIDCTYuv.at<Vec3b>(i, j)[0] = (uchar)idctYuv[0].at<double>(i, j);
+			mergedIDCTYuv.at<Vec3b>(i, j)[1] = (uchar)idctYuv[1].at<double>(i, j);
+			mergedIDCTYuv.at<Vec3b>(i, j)[2] = (uchar)idctYuv[2].at<double>(i, j);
+		}
+	}
+	return mergedIDCTYuv;
+}
+
+void antiQuantify(Mat& src,int const quantifyArray[8][8]) {
+	int rows = src.rows;
+	int cols = src.cols;
+	for (int i = 0; i < rows / 8; ++i) {
+		for (int j = 0; j < cols / 8; ++j) {
+			for (int u = 0; u < 8; ++u) {
+				for (int v = 0; v < 8; ++v) {
+					int x = u + i * 8;
+					int y = v + j * 8;
+
+					src.at<double>(x, y) = round(src.at<double>(x, y) * quantifyArray[u][v]);
+				}
+			}
+		}
+	}
+
+}
+
+void copyRGBMat(Mat const src, Mat& ouput) {
+	int w = src.rows;
+	int h = src.cols;
+	for (int i = 0; i < w; ++i) {
+		for (int j = 0; j < h; ++j) {
+			ouput.at<Vec3b>(i, j)[0] = src.at<Vec3b>(i, j)[0];
+			ouput.at<Vec3b>(i, j)[1] = src.at<Vec3b>(i, j)[1];
+			ouput.at<Vec3b>(i, j)[2] = src.at<Vec3b>(i, j)[2];
+		}
+	}
+}
+
+Mat  extendImg(Mat& src) {
+	int height = src.rows;
+	int width = src.cols;
+	Mat dst;
+	int h =8- height % 8;
+	int w =8- width % 8;
+	dst.create(src.rows + h, src.cols + w, CV_8UC3);
+	copyRGBMat(src, dst);
+	if (h != 0 && w != 0)
+	{
+		for (int i = 0; i < h; ++i) {
+			int x = height + i - 1;
+			for (int j = 0; j < dst.cols; ++j) {
+				dst.at<Vec3b	>(x, j)[0] = 255;
+				dst.at<Vec3b	>(x, j)[1] = 255;
+				dst.at<Vec3b	>(x, j)[2] = 255;
+			}
+		}
+		for (int j =0; j < w; ++j) {
+			int y = width + j - 1;
+			for (int i = 0; i < dst.rows; ++i) {
+				dst.at<Vec3b>(i,y)[0] = 255;
+				dst.at<Vec3b>(i,y)[1] = 255;
+				dst.at<Vec3b>(i,y)[2] = 255;
+			}
+		}
+
+	}
+	else if (h != 0) {
+
+		dst.create(src.rows + 8 - h, src.cols , CV_8UC3);
+		for (int i = h ; i < 8; ++i) {
+			for (int j = 0; j < width; ++j) {
+
+				int x = height + i - 1;
+				dst.at<Vec3b	>(x, j)[0] = 255;
+				dst.at<Vec3b	>(x, j)[1] = 255;
+				dst.at<Vec3b	>(x, j)[2] = 255;
+			}
+		}
+
+		for (int j = width % 8; j < 8; ++j) {
+			for (int i = 0; i < height; ++i) {
+				src.at<Vec3b>(i, width + j - 1)[0] = 255;
+				src.at<Vec3b>(i, width + j - 1)[1] = 255;
+				src.at<Vec3b>(i, width + j - 1)[2] = 255;
+			}
+		}
+	}
+	else	if (w  != 0) {
+		dst.create(src.rows, src.cols + 8 - w, CV_8UC3);
+		for (int j = width % 8; j < 8; ++j) {
+			for (int i = 0; i < height; ++i) {
+				src.at<Vec3b>(i, width + j - 1)[0] = 255;
+				src.at<Vec3b>(i, width + j - 1)[1] = 255;
+				src.at<Vec3b>(i, width + j - 1)[2] = 255;
+			}
+		}
+	}
+	return dst;
+}
+int main() {
+	String img1 = "C://Users//qq941//Pictures//imagingbook-images-en1//imgs-by-chap//ch12//alps-01.jpg";
+	String img2 = "D://OneDrive - hdu.edu.cn//image//pic//GirlWithHat1.jpg";
+	String img3 = "C://Users//qq941//Pictures//image//comic.jpg";
+	//Konachan.com - 305031 sample
+	Mat rgb = imread(img1 );
+	Mat yuv;
+	rgb = extendImg(rgb);
+	//convert to yuv ,done.
+	bgr2Yuv(rgb, yuv);
+
+	//split yuv channels done.
+	vector<Mat> yuvChannels = splitYuvChannels(yuv);
+
+
+	//merge YUV channels
+	Mat yuvMerged(rgb.size(), CV_8UC3);
+	merge(yuvChannels, yuvMerged);
+
+
+	//DCT begin
+	Mat dctY, dctU,dctV;
+	dct(Mat_<double>(yuvChannels[0]), dctY);
+	dct(Mat_<double>(yuvChannels[1]), dctU);
+	dct(Mat_<double>(yuvChannels[2]), dctV);
+
+	imshow("DCTY", dctY);
+	waitKey();
+
+
+	//quantify begin
+	quantify(dctY, QY);
+	quantify(dctU, QC);
+	quantify(dctV, QC);
+	imshow("Quantified dctY", dctY);
+	imshow("Quantified ,dctU", dctU);
+	imshow("Quantified dctV", dctV);
+	waitKey();
+
+
+
+
+
+	antiQuantify(dctY, QY);
+	antiQuantify(dctU, QC);
+	antiQuantify(dctV, QC);
+
+
+	//IDCT Test that result is true
+	Mat idctY, idctU, idctV;
+	idct(dctY, idctY);
+	idct(dctU, idctU);
+	idct(dctV, idctV);
+	vector<Mat> idctYuv;
+	idctYuv.push_back(idctY);
+	idctYuv.push_back(idctU);
+	idctYuv.push_back(idctV);
+	Mat mergedIDCTYuv;//
+	mergedIDCTYuv=mergeYUVChannels(idctYuv);
+	imshow("mergedIDCTYuv", mergedIDCTYuv);
+	waitKey();
+
+	Mat processedRGB;
+	cvtColor(mergedIDCTYuv, processedRGB,COLOR_YUV2BGR);
+
+	imshow("processedRGB", processedRGB);
+	waitKey();
+	return 0;
+}
+
+

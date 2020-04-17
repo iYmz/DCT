@@ -13,19 +13,19 @@ using namespace std;
 class Filters {
 public:
 	Filters();
-	int Average_8DGrey_3x3(const String &imgPath );
+	int Average_8DGrey_3x3(const String& imgPath);
 	int H_3x3[3][3] = {
 				{1,1,1},
 				{1,1,1},
 				{1,1,1}
 	};
-	int H_Sobel[3][3] = { 
+	int H_Sobel[3][3] = {
 		{-1,0,1},
 		{-1,0,2},
 		{-1,0,1}
 	};
 	/** @breif Create a 3x3 filter to process 8bits grey image
-	
+
 	*/
 	~Filters();
 
@@ -33,8 +33,8 @@ private:
 };
 Filters::Filters() {}
 Filters::~Filters() {}
-int Filters:: Average_8DGrey_3x3(const String &imgPath){
-	
+int Filters::Average_8DGrey_3x3(const String& imgPath) {
+
 	int H_3x3[3][3] = {
 					{1,1,1},
 					{1,1,1},
@@ -42,11 +42,11 @@ int Filters:: Average_8DGrey_3x3(const String &imgPath){
 	};
 
 	Mat image = LoadImageAndShow("Window", imgPath, 0);
-	Mat copy = Mat(image.rows,image.cols,CV_8UC1);
+	Mat copy = Mat(image.rows, image.cols, CV_8UC1);
 	int rows = image.rows;
 	int cols = image.cols;
 	int step = image.step;
-	cout << "Image informations:" << endl << "rows:" << rows << endl << "cols:" << cols<<endl << "steps:" << step << endl;
+	cout << "Image informations:" << endl << "rows:" << rows << endl << "cols:" << cols << endl << "steps:" << step << endl;
 
 	int** pixels = Create2DArray(0, rows, cols);
 	for (int i = 0; i < rows; i++)
@@ -63,13 +63,13 @@ int Filters:: Average_8DGrey_3x3(const String &imgPath){
 			int sum = 0;
 			for (int i = -1; i <= 1; i++) {
 				for (int j = -1; j <= 1; j++) {
-					int p = pixels[u+i][v+j] * H_3x3[1+i][1+j];
+					int p = pixels[u + i][v + j] * H_3x3[1 + i][1 + j];
 					sum += p;
 				}
 			}
-			copy.data[u*cols+v] = sum / 6;
+			copy.data[u * cols + v] = sum / 6;
 		}
-		
+
 	}
 
 	imshow("AverageBlur", copy);
