@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\NewFilter1">
-      <UniqueIdentifier>{2729f481-de82-43fa-afac-a6e9e27577cb}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenCV-ProjectAlpha.cpp">
@@ -28,6 +25,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="GeryImageDCT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bundle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,5 +50,20 @@
     <ClInclude Include="Fourier.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="bundle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unzip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="zlibwapi.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="zlibwapi.dll" />
   </ItemGroup>
 </Project>

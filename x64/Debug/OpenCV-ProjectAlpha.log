@@ -899,7 +899,7 @@
        正在使用项目“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”中的目标“GetNativeManifest”重写项目“D:\Dev\vs 2019 community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetNativeManifest”。
        正在使用项目“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets”中的目标“GetTargetPathWithTargetPlatformMoniker”重写项目“D:\Dev\vs 2019 community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetTargetPathWithTargetPlatformMoniker”。
        项目中不存在 BeforeTargets 特性中的“D:\Dev\vs 2019 community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (57,12)”位置列出的目标“CoreCompile”，将忽略该目标。
-生成启动时间为 2020/4/17 17:47:23。
+生成启动时间为 2020/4/20 17:36:49。
 开始生成时的环境:
        ALLUSERSPROFILE = C:\ProgramData
        APPDATA = C:\Users\qq941\AppData\Roaming
@@ -921,7 +921,7 @@
        OneDrive = D:\OneDrive - hdu.edu.cn
        OneDriveCommercial = D:\OneDrive - hdu.edu.cn
        OS = Windows_NT
-       Path = D:\Dev\python3.7x86\Scripts\;D:\Dev\python3.7x86\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-13.0.2\bin;D:\Dev\opencv\build\x64\vc15\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\qq941\AppData\Local\Microsoft\WindowsApps;;D:\Dev\Microsoft VS Code\bin
+       Path = D:\Dev\python3.7x86\Scripts\;D:\Dev\python3.7x86\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-13.0.2\bin;D:\Dev\opencv\build\x64\vc15\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Dev\CMake\bin;D:\Dev\nodejs\;C:\Users\qq941\AppData\Local\Microsoft\WindowsApps;;D:\Dev\Microsoft VS Code\bin;C:\Users\qq941\AppData\Roaming\npm
        PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
        PkgDefApplicationConfigFile = C:\Users\qq941\AppData\Local\Microsoft\VisualStudio\16.0_477fbc30\devenv.exe.config
        PROCESSOR_ARCHITECTURE = x86
@@ -935,7 +935,7 @@
        ProgramW6432 = C:\Program Files
        PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
        PUBLIC = C:\Users\Public
-       ServiceHubLogSessionKey = 9435B7C2
+       ServiceHubLogSessionKey = 91792835
        SESSIONNAME = Console
        SystemDrive = C:
        SystemRoot = C:\WINDOWS
@@ -979,10 +979,10 @@
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets”中的目标“SetTelemetryEnvironmentVariables”(目标“Build”依赖于它):
        正在使用程序集“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.Build.CppTasks.Common.dll”中的“SetEnv”任务。
        任务“SetEnv”
-         VSTEL_SolutionSessionID={316623BA-506E-490B-B4AB-F36E15C7CDB9}
+         VSTEL_SolutionSessionID={58DA4E02-2CA1-45F0-BF78-696C7CFEE902}
        已完成执行任务“SetEnv”的操作。
        任务“SetEnv”
-         VSTEL_CurrentSolutionBuildID=867196437
+         VSTEL_CurrentSolutionBuildID=101502593
        已完成执行任务“SetEnv”的操作。
        任务“SetEnv”
          VSTEL_ProjectID={645D3ACD-27EA-421E-8488-3372FB9C5E90}
@@ -994,7 +994,7 @@
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“_PrepareForReferenceResolution”(目标“ResolveReferences”依赖于它):
        由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“_PrepareForReferenceResolution”的操作。
-       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('BasicOpenCVTipExamples.cpp;GeryImageDCT.cpp;GetPixelsExample.cpp;OpenCV-ProjectAlpha.cpp'!='' and 'false'=='true' and '' != 'false')。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('BasicOpenCVTipExamples.cpp;bundle.cpp;CompressTest.cpp;GeryImageDCT.cpp;GetPixelsExample.cpp;OpenCV-ProjectAlpha.cpp;zip.cpp'!='' and 'false'=='true' and '' != 'false')。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“BeforeResolveReferences”的操作。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AssignProjectConfiguration”(目标“ResolveReferences”依赖于它):
@@ -1037,7 +1037,7 @@
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“GetReferenceAssemblyPaths”的操作。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.Current.targets”中的目标“SetBuildDefaultEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
        任务“SetEnv”
-         PATH=D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64;D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86;D:\Windows Kits\10\bin\10.0.18362.0\x86;;D:\Dev\vs 2019 community\Common7\tools;D:\Dev\vs 2019 community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;D:\Dev\vs 2019 community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;D:\Dev\python3.7x86\Scripts\;D:\Dev\python3.7x86\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-13.0.2\bin;D:\Dev\opencv\build\x64\vc15\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\qq941\AppData\Local\Microsoft\WindowsApps;;D:\Dev\Microsoft VS Code\bin;
+         PATH=D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64;D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86;D:\Windows Kits\10\bin\10.0.18362.0\x86;;D:\Dev\vs 2019 community\Common7\tools;D:\Dev\vs 2019 community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;D:\Dev\vs 2019 community\MSBuild\Current\Bin;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;D:\Dev\python3.7x86\Scripts\;D:\Dev\python3.7x86\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-13.0.2\bin;D:\Dev\opencv\build\x64\vc15\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Dev\CMake\bin;D:\Dev\nodejs\;C:\Users\qq941\AppData\Local\Microsoft\WindowsApps;;D:\Dev\Microsoft VS Code\bin;C:\Users\qq941\AppData\Roaming\npm;
        已完成执行任务“SetEnv”的操作。
        任务“SetEnv”
          LIB=D:\Dev\opencv\build\x64\vc15\lib;D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\lib\x64;;D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\atlmfc\lib\x64;;D:\Dev\vs 2019 community\VC\Auxiliary\VS\lib\x64;;D:\Windows Kits\10\lib\10.0.18362.0\ucrt\x64;;;D:\Windows Kits\10\lib\10.0.18362.0\um\x64;lib\um\x64;;Lib\um\x64
@@ -1106,7 +1106,7 @@
        已完成执行任务“MakeDir”的操作。
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“PrepareForBuild”的操作。
        已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
-       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('BasicOpenCVTipExamples.cpp;GeryImageDCT.cpp;GetPixelsExample.cpp;OpenCV-ProjectAlpha.cpp'!='' and 'false'=='true' and '' != 'false')。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('BasicOpenCVTipExamples.cpp;bundle.cpp;CompressTest.cpp;GeryImageDCT.cpp;GetPixelsExample.cpp;OpenCV-ProjectAlpha.cpp;zip.cpp'!='' and 'false'=='true' and '' != 'false')。
        由于条件的计算结果为 false，已跳过目标“GetInstalledSDKLocations”；('@(SDKReference)' != '')的计算结果为('' != '')。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
        由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
@@ -1139,7 +1139,7 @@
        已完成执行任务“WriteLinesToFile”的操作。
        正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Touch”任务。
        任务“Touch”
-         正在对“x64\Debug\OpenCV-P.645D3ACD.tlog\unsuccessfulbuild”执行 Touch 任务。
+         正在创建“x64\Debug\OpenCV-P.645D3ACD.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        已完成执行任务“Touch”的操作。
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“InitializeBuildStatus”的操作。
        已跳过目标“PrepareProjectReferences”。以前的生成已成功。
@@ -1227,9 +1227,12 @@
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“ComputeReferenceCLInput”的操作。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“WarnCompileDuplicatedFilename”(目标“_ClCompile”依赖于它):
        由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'BasicOpenCVTipExamples.cpp' != 'BasicOpenCVTipExamples.cpp' and 'x64\Debug\' == 'x64\Debug\')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'bundle.cpp' != 'bundle.cpp' and 'x64\Debug\' == 'x64\Debug\')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'CompressTest.cpp' != 'CompressTest.cpp' and 'x64\Debug\' == 'x64\Debug\')。
        由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'GeryImageDCT.cpp' != 'GeryImageDCT.cpp' and 'x64\Debug\' == 'x64\Debug\')。
        由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'GetPixelsExample.cpp' != 'GetPixelsExample.cpp' and 'x64\Debug\' == 'x64\Debug\')。
        由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'OpenCV-ProjectAlpha.cpp' != 'OpenCV-ProjectAlpha.cpp' and 'x64\Debug\' == 'x64\Debug\')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'zip.cpp' != 'zip.cpp' and 'x64\Debug\' == 'x64\Debug\')。
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“WarnCompileDuplicatedFilename”的操作。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”中的目标“FixupCLCompileOptions”(目标“_ClCompile”依赖于它):
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“FixupCLCompileOptions”的操作。
@@ -1247,7 +1250,7 @@
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“SelectClCompile”(目标“ClCompile”依赖于它):
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“SelectClCompile”的操作。
        由于条件的计算结果为 false，已跳过目标“GenerateTargetFrameworkMonikerAttribute”；('$(GenerateTargetFrameworkAttribute)' == 'true')的计算结果为('false' == 'true')。
-       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPreProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('BasicOpenCVTipExamples.cpp;GeryImageDCT.cpp;GetPixelsExample.cpp;OpenCV-ProjectAlpha.cpp' != '' and 'false' == 'True')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPreProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('BasicOpenCVTipExamples.cpp;bundle.cpp;CompressTest.cpp;GeryImageDCT.cpp;GetPixelsExample.cpp;OpenCV-ProjectAlpha.cpp;zip.cpp' != '' and 'false' == 'True')。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”中的目标“ClCompile”(目标“_ClCompile”依赖于它):
        由于 false 条件，已跳过任务“Delete”；('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName)))计算为('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'x64\Debug\vc142.pdb' != '' and !Exists(x64\Debug\vc142.pdb))。
        由于 false 条件，已跳过任务“MultiToolTask”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' == 'true')计算为('' != 'true' and '' == '' and 'false' == 'true')。
@@ -1256,33 +1259,68 @@
        任务“CL”
          读取跟踪日志:
          	x64\Debug\OpenCV-P.645D3ACD.tlog\CL.read.1.tlog
-         D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\BASICOPENCVTIPEXAMPLES.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\GERYIMAGEDCT.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\GETPIXELSEXAMPLE.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA.CPP 的输出:
+         D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\BASICOPENCVTIPEXAMPLES.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\BUNDLE.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\COMPRESSTEST.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\GERYIMAGEDCT.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\GETPIXELSEXAMPLE.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA.CPP|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\ZIP.CPP 的输出:
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BASICOPENCVTIPEXAMPLES.OBJ
+         	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BUNDLE.OBJ
+         	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\COMPRESSTEST.OBJ
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GERYIMAGEDCT.OBJ
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GETPIXELSEXAMPLE.OBJ
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ
-         将编译 OpenCV-ProjectAlpha.cpp，因为未能在跟踪日志中找到它。
+         	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\ZIP.OBJ
+         将编译 OpenCV-ProjectAlpha.cpp，因为在 2020/4/20 17:36:42 处修改了 D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp。
          D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA.CPP 的输出:
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ
          写入跟踪日志:
          	x64\Debug\OpenCV-P.645D3ACD.tlog\CL.write.1.tlog
          传递给工具的环境变量为:
-           VS_UNICODE_OUTPUT=856
-         D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt "OpenCV-ProjectAlpha.cpp"
+           VS_UNICODE_OUTPUT=944
+         D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I"D:\Dev\zlib1211\zlib-1.2.11" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _ZLIB_WINAPI /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt "OpenCV-ProjectAlpha.cpp"
          Tracking command:
-         D:\Dev\vs 2019 community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\x64\Debug\OpenCV-P.645D3ACD.tlog /r D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA.CPP /b MSBuildConsole_CancelEvent1688a8aa53f24b10b8944c84795a25aa  /c "D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt "OpenCV-ProjectAlpha.cpp"
+         D:\Dev\vs 2019 community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\x64\Debug\OpenCV-P.645D3ACD.tlog /r D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA.CPP /b MSBuildConsole_CancelEvent07e34ab9867c4590a734d818c558bd53  /c "D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe"  /c /I"D:\Dev\zlib1211\zlib-1.2.11" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _ZLIB_WINAPI /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt "OpenCV-ProjectAlpha.cpp"
          OpenCV-ProjectAlpha.cpp
      1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\Fourier.h(22,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
      1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\Fourier.h(23,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
      1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\Fourier.h(56,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
      1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\Fourier.h(57,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(56,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(57,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(131): warning C4715: “splitedIDCT”: 不是所有的控件路径都返回值
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\bundle.h(171,48): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(58,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(59,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(166,24): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+                 with
+                 [
+                     _Tp=int
+                 ]
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(167,93): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+                 with
+                 [
+                     _Tp=int
+                 ]
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(168,93): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+                 with
+                 [
+                     _Tp=int
+                 ]
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(191,24): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+                 with
+                 [
+                     _Tp=int
+                 ]
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(234,23): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+                 with
+                 [
+                     _Tp=int
+                 ]
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(531,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(721,54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(722,56): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(723,52): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(730,66): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(132): warning C4715: “splitedIDCT”: 不是所有的控件路径都返回值
+     1>D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(374): warning C4715: “balanceRangeCheck”: 不是所有的控件路径都返回值
        已完成执行任务“CL”的操作。
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“ClCompile”的操作。
        由于条件的计算结果为 false，已跳过目标“RunSelectedFileNativeCodeAnalysis”；('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='')的计算结果为('false'=='true' and ''!='')。
-       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPostProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('BasicOpenCVTipExamples.cpp;GeryImageDCT.cpp;GetPixelsExample.cpp;OpenCV-ProjectAlpha.cpp' != '' and 'false' == 'True')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPostProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('BasicOpenCVTipExamples.cpp;bundle.cpp;CompressTest.cpp;GeryImageDCT.cpp;GetPixelsExample.cpp;OpenCV-ProjectAlpha.cpp;zip.cpp' != '' and 'false' == 'True')。
        由于条件的计算结果为 false，已跳过目标“NoAnalysisToolEnabledWarning”；('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='false' AND '$(EnableClangTidyCodeAnalysis)'=='false')的计算结果为('false'=='true' AND 'true'=='false' AND 'false'=='false')。
        由于条件的计算结果为 false，已跳过目标“RunSelectedFileClangTidy”；('$(RunClangCppAnalysis)'=='true' AND '$(SelectedFiles)'!='')的计算结果为('false'=='true' AND ''!='')。
        由于条件的计算结果为 false，已跳过目标“MicrosoftAnalysisIncompatiableWithClangCl”；('$(RunCppAnalysis)'=='true' AND '$(EnableMicrosoftCodeAnalysis)'=='true' AND '$(UseClangCl)'=='true')的计算结果为('false'=='true' AND 'true'=='true' AND ''=='true')。
@@ -1354,7 +1392,7 @@
        已完成执行任务“AssignTargetPath”的操作。
        任务“AssignTargetPath”
        已完成执行任务“AssignTargetPath”的操作。
-       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and ''=='.manifest')。
+       由于 false 条件，已跳过任务“AssignTargetPath”；('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')计算为(''=='' and '.dll'=='.manifest')。
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“AssignTargetPaths”的操作。
        已跳过目标“AssignTargetPaths”。以前的生成已成功。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“SplitResourcesByCulture”(目标“PrepareResourceNames”依赖于它):
@@ -1395,11 +1433,12 @@
          	x64\Debug\OpenCV-P.645D3ACD.tlog\link.write.1.tlog
          读取跟踪日志:
          	x64\Debug\OpenCV-P.645D3ACD.tlog\link.read.1.tlog
-         D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BASICOPENCVTIPEXAMPLES.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GERYIMAGEDCT.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GETPIXELSEXAMPLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ 的输出:
+         D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BASICOPENCVTIPEXAMPLES.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BUNDLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\COMPRESSTEST.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GERYIMAGEDCT.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GETPIXELSEXAMPLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\ZIP.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\ZLIBWAPI.LIB 的输出:
          	D:\CODE\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.EXE
          	D:\CODE\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.ILK
          	D:\CODE\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.PDB
-         D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BASICOPENCVTIPEXAMPLES.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GERYIMAGEDCT.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GETPIXELSEXAMPLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ 的输入:
+         D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BASICOPENCVTIPEXAMPLES.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BUNDLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\COMPRESSTEST.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GERYIMAGEDCT.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GETPIXELSEXAMPLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\ZIP.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\ZLIBWAPI.LIB 的输入:
+         	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\ZLIBWAPI.LIB
          	D:\DEV\OPENCV\BUILD\X64\VC15\LIB\OPENCV_WORLD420D.LIB
          	D:\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X64\KERNEL32.LIB
          	D:\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X64\USER32.LIB
@@ -1414,9 +1453,12 @@
          	D:\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X64\ODBC32.LIB
          	D:\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X64\ODBCCP32.LIB
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BASICOPENCVTIPEXAMPLES.OBJ
+         	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BUNDLE.OBJ
+         	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\COMPRESSTEST.OBJ
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GERYIMAGEDCT.OBJ
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GETPIXELSEXAMPLE.OBJ
          	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ
+         	D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\ZIP.OBJ
          	C:\WINDOWS\SYSTEM32\TZRES.DLL
          	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
          	D:\DEV\VS 2019 COMMUNITY\VC\TOOLS\MSVC\14.24.28314\LIB\X64\MSVCPRTD.LIB
@@ -1426,16 +1468,24 @@
          	D:\WINDOWS KITS\10\LIB\10.0.18362.0\UCRT\X64\UCRTD.LIB
          需要编译源: 输入 D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ 比输出 D:\CODE\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.PDB 新。
          传递给工具的环境变量为:
-           VS_UNICODE_OUTPUT=1520
-         D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.exe" /INCREMENTAL /NOLOGO opencv_world420d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.lib" /MACHINE:X64 x64\Debug\BasicOpenCVTipExamples.obj
+           VS_UNICODE_OUTPUT=1932
+         D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Dev\zlib1211\zlib-1.2.11\contrib\vstudio\vc14\x64\ZlibDllDebug" zlibwapi.lib opencv_world420d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.lib" /MACHINE:X64 x64\Debug\BasicOpenCVTipExamples.obj
+         x64\Debug\bundle.obj
+         x64\Debug\CompressTest.obj
          x64\Debug\GeryImageDCT.obj
          x64\Debug\GetPixelsExample.obj
          "x64\Debug\OpenCV-ProjectAlpha.obj"
+         x64\Debug\zip.obj
+         zlibwapi.lib
          Tracking command:
-         D:\Dev\vs 2019 community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\x64\Debug\OpenCV-P.645D3ACD.tlog /r "D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BASICOPENCVTIPEXAMPLES.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GERYIMAGEDCT.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GETPIXELSEXAMPLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ" /b MSBuildConsole_CancelEvent6bd568d7e0e84f5aa34a554d679240ff  /c "D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.exe" /INCREMENTAL /NOLOGO opencv_world420d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.lib" /MACHINE:X64 x64\Debug\BasicOpenCVTipExamples.obj
+         D:\Dev\vs 2019 community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\x64\Debug\OpenCV-P.645D3ACD.tlog /r "D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BASICOPENCVTIPEXAMPLES.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\BUNDLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\COMPRESSTEST.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GERYIMAGEDCT.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\GETPIXELSEXAMPLE.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\OPENCV-PROJECTALPHA.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\X64\DEBUG\ZIP.OBJ|D:\CODE\OPENCV-PROJECTALPHA\OPENCV-PROJECTALPHA\ZLIBWAPI.LIB" /b MSBuildConsole_CancelEvent697aeccdb9d84929b509f2215a482131  /c "D:\Dev\vs 2019 community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Dev\zlib1211\zlib-1.2.11\contrib\vstudio\vc14\x64\ZlibDllDebug" zlibwapi.lib opencv_world420d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.lib" /MACHINE:X64 x64\Debug\BasicOpenCVTipExamples.obj
+         x64\Debug\bundle.obj
+         x64\Debug\CompressTest.obj
          x64\Debug\GeryImageDCT.obj
          x64\Debug\GetPixelsExample.obj
          "x64\Debug\OpenCV-ProjectAlpha.obj"
+         x64\Debug\zip.obj
+         zlibwapi.lib
        已完成执行任务“Link”的操作。
        任务“Message”
          OpenCV-ProjectAlpha.vcxproj -> D:\Code\OpenCV-ProjectAlpha\x64\Debug\OpenCV-ProjectAlpha.exe
@@ -1451,7 +1501,8 @@
        由于条件的计算结果为 false，已跳过目标“ComputeMetaGenInputs”；('$(CLRSupport)'!='' and '$(CLRSupport)'!='false' and '$(CLRSupport)'!='NetCore')的计算结果为('false'!='' and 'false'!='false' and 'false'!='NetCore')。
        由于条件的计算结果为 false，已跳过目标“MetaGen”；('@(MetaGen)' != '')的计算结果为('' != '')。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“ComputeLinkImportLibraryOutputsForClean”(目标“_Link”依赖于它):
-       由于 false 条件，已跳过任务“WriteLinesToFile”；('@(_LinkSecondaryOutput)' != '')计算为('' != '')。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“ComputeLinkImportLibraryOutputsForClean”的操作。
      1>来自项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”的文件“D:\Dev\vs 2019 community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“AfterLink”(目标“_Link”依赖于它):
      1>已完成在项目“OpenCV-ProjectAlpha.vcxproj”中生成目标“AfterLink”的操作。
@@ -1571,133 +1622,133 @@
      1>已完成生成项目“D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj”(Build 个目标)的操作。
 
 项目性能摘要:
-     3059 毫秒 D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj   1 次调用
-               3059 毫秒 Build                                      1 次调用
+     3014 毫秒 D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.vcxproj   1 次调用
+               3014 毫秒 Build                                      1 次调用
 
 目标性能摘要:
         0 毫秒 Build                                      1 次调用
+        0 毫秒 ComputeLegacyManifestEmbedding             1 次调用
+        0 毫秒 BuildLinkTraverse                          1 次调用
+        0 毫秒 BuildCompile                               1 次调用
+        0 毫秒 _BuildCompileAction                        1 次调用
+        0 毫秒 AfterBuildCompileEvent                     1 次调用
+        0 毫秒 _ResourceCompile                           1 次调用
         0 毫秒 AfterResourceCompile                       1 次调用
-        0 毫秒 ResolvedXDCMake                            1 次调用
+        0 毫秒 CreateSatelliteAssemblies                  1 次调用
         0 毫秒 BeforeResourceCompile                      1 次调用
         0 毫秒 _ClCompile                                 1 次调用
         0 毫秒 AfterClCompile                             1 次调用
-        0 毫秒 ComputeCLCompileGeneratedXDCFiles          1 次调用
+        0 毫秒 _Appverifier                               1 次调用
         0 毫秒 SelectClCompile                            1 次调用
+        0 毫秒 _Deploy                                    1 次调用
+        0 毫秒 GetCopyToOutputDirectoryXamlAppDefs        1 次调用
+        0 毫秒 GetCopyToOutputDirectoryItems              1 次调用
+        0 毫秒 ComputeReferenceCLInput                    1 次调用
+        0 毫秒 BeforeLink                                 1 次调用
+        0 毫秒 ComputeCLInputPDBName                      1 次调用
+        0 毫秒 ComputeRCOutputs                           1 次调用
+        0 毫秒 _GenerateSatelliteAssemblyInputs           1 次调用
+        0 毫秒 _ALink                                     1 次调用
+        0 毫秒 _Link                                      1 次调用
+        0 毫秒 AfterLink                                  1 次调用
+        0 毫秒 ResolvedXDCMake                            1 次调用
         0 毫秒 MakeDirsForXdcMake                         1 次调用
+        0 毫秒 ComputeLinkSwitches                        1 次调用
+        0 毫秒 PreLinkEvent                               1 次调用
         0 毫秒 _XdcMake                                   1 次调用
         0 毫秒 ComputeCLCompileGeneratedSbrFiles          1 次调用
-        0 毫秒 ComputeReferenceCLInput                    1 次调用
-        0 毫秒 ComputeCLInputPDBName                      1 次调用
-        0 毫秒 BeforeClCompile                            1 次调用
-        0 毫秒 BuildCompileTraverse                       1 次调用
-        0 毫秒 BuildGenerateSources                       1 次调用
-        0 毫秒 _ResourceCompile                           1 次调用
-        0 毫秒 _BuildGenerateSourcesAction                1 次调用
-        0 毫秒 AfterBuildCompileEvent                     1 次调用
-        0 毫秒 BuildCompile                               1 次调用
-        0 毫秒 AfterLink                                  1 次调用
         0 毫秒 PrepareResourceNames                       1 次调用
         0 毫秒 CreateCustomManifestResourceNames          1 次调用
-        0 毫秒 _Link                                      1 次调用
+        0 毫秒 MakeDirsForBscMake                         1 次调用
         0 毫秒 AssignTargetPaths                          1 次调用
-        0 毫秒 ComputeManifestInputsTargets               1 次调用
-        0 毫秒 _ALink                                     1 次调用
+        0 毫秒 _BscMake                                   1 次调用
+        0 毫秒 ComputeLinkInputsFromProject               1 次调用
         0 毫秒 ComputeCLGeneratedLinkInputs               1 次调用
-        0 毫秒 _Manifest                                  1 次调用
-        0 毫秒 ComputeManifestGeneratedLinkerInputs       1 次调用
+        0 毫秒 ComputeCLOutputs                           1 次调用
         0 毫秒 ComputeRCGeneratedLinkInputs               1 次调用
-        0 毫秒 ComputeRCOutputs                           1 次调用
-        0 毫秒 BeforeLink                                 1 次调用
-        0 毫秒 ComputeLegacyManifestEmbedding             1 次调用
-        0 毫秒 BuildLinkTraverse                          1 次调用
-        0 毫秒 _BuildCompileAction                        1 次调用
-        0 毫秒 ComputeLinkImportLibraryOutputsForClean    1 次调用
-        0 毫秒 AfterBuildGenerateSourcesEvent             1 次调用
-        0 毫秒 _Midl                                      1 次调用
-        0 毫秒 _Deploy                                    1 次调用
-        0 毫秒 _CheckWindowsSDKInstalled                  1 次调用
-        0 毫秒 GetResolvedWinMD                           1 次调用
-        0 毫秒 GetCopyToOutputDirectoryXamlAppDefs        1 次调用
-        0 毫秒 GetReferenceAssemblyPaths                  1 次调用
-        0 毫秒 GetCopyToOutputDirectoryItems              1 次调用
-        0 毫秒 _CopySourceItemsToOutputDirectory          1 次调用
-        0 毫秒 PrepareProjectReferences                   1 次调用
-        0 毫秒 _CheckForCompileOutputs                    1 次调用
-        0 毫秒 PrepareForRun                              1 次调用
-        0 毫秒 PostBuildEvent                             1 次调用
-        0 毫秒 BeforeResolveReferences                    1 次调用
-        0 毫秒 _BuildLinkAction                           1 次调用
-        0 毫秒 BuildLink                                  1 次调用
-        0 毫秒 AfterBuild                                 1 次调用
-        0 毫秒 _Appverifier                               1 次调用
-        0 毫秒 AfterBuildGenerateSources                  1 次调用
+        0 毫秒 _Manifest                                  1 次调用
+        0 毫秒 BeforeClCompile                            1 次调用
+        0 毫秒 BuildGenerateSources                       1 次调用
         0 毫秒 ResolveSDKReferences                       1 次调用
+        0 毫秒 PostBuildEvent                             1 次调用
+        0 毫秒 SetCABuildNativeEnvironmentVariables       1 次调用
+        0 毫秒 _BuildLinkAction                           1 次调用
+        0 毫秒 GetResolvedWinMD                           1 次调用
+        0 毫秒 SetBuildDefaultEnvironmentVariables        1 次调用
+        0 毫秒 GetReferenceAssemblyPaths                  1 次调用
+        0 毫秒 GetFrameworkPaths                          1 次调用
+        0 毫秒 ResolveProjectReferences                   1 次调用
+        0 毫秒 PrepareProjectReferences                   1 次调用
+        0 毫秒 _GetProjectReferenceTargetFrameworkProperties   1 次调用
+        0 毫秒 BuildLink                                  1 次调用
+        0 毫秒 AssignProjectConfiguration                 1 次调用
+        0 毫秒 BeforeResolveReferences                    1 次调用
+        0 毫秒 _PrepareForReferenceResolution             1 次调用
+        0 毫秒 AfterBuild                                 1 次调用
+        0 毫秒 SetTelemetryEnvironmentVariables           1 次调用
+        0 毫秒 ExpandSDKReferences                        1 次调用
+        0 毫秒 BuildCompileTraverse                       1 次调用
         0 毫秒 ResolveAssemblyReferences                  1 次调用
+        0 毫秒 ResolveReferences                          1 次调用
+        0 毫秒 _BuildGenerateSourcesAction                1 次调用
+        0 毫秒 AfterBuildGenerateSourcesEvent             1 次调用
+        0 毫秒 AfterBuildGenerateSources                  1 次调用
+        0 毫秒 _Midl                                      1 次调用
         0 毫秒 AfterMidl                                  1 次调用
-        0 毫秒 ComputeMIDLGeneratedCompileInputs          1 次调用
+        0 毫秒 _CopySourceItemsToOutputDirectory          1 次调用
         0 毫秒 MakeDirsForMidl                            1 次调用
         0 毫秒 _Xsd                                       1 次调用
         0 毫秒 CopyFileToFolders                          1 次调用
-        0 毫秒 MakeDirsForBscMake                         1 次调用
+        0 毫秒 _CheckForCompileOutputs                    1 次调用
         0 毫秒 ComputeCustomBuildOutput                   1 次调用
         0 毫秒 SelectCustomBuild                          1 次调用
         0 毫秒 _SelectedFiles                             1 次调用
         0 毫秒 PreBuildEvent                              1 次调用
         0 毫秒 BeforeBuildGenerateSources                 1 次调用
-        0 毫秒 _BscMake                                   1 次调用
-        0 毫秒 CreateSatelliteAssemblies                  1 次调用
-        0 毫秒 ResolveReferences                          1 次调用
+        0 毫秒 BuildGenerateSourcesTraverse               1 次调用
+        0 毫秒 PrepareForRun                              1 次调用
         0 毫秒 AfterResolveReferences                     1 次调用
-        0 毫秒 ExpandSDKReferences                        1 次调用
-        0 毫秒 PreLinkEvent                               1 次调用
+        0 毫秒 RegisterOutput                             1 次调用
         1 毫秒 MakeDirsForResourceCompile                 1 次调用
-        1 毫秒 BuildGenerateSourcesTraverse               1 次调用
-        1 毫秒 _PrepareForReferenceResolution             1 次调用
-        1 毫秒 ComputeLinkInputsFromProject               1 次调用
-        1 毫秒 FixupCLCompileOptions                      1 次调用
-        1 毫秒 _GenerateSatelliteAssemblyInputs           1 次调用
-        1 毫秒 ComputeCLOutputs                           1 次调用
-        1 毫秒 MakeDirsForLink                            1 次调用
+        1 毫秒 ComputeMIDLGeneratedCompileInputs          1 次调用
         1 毫秒 CopyFilesToOutputDirectory                 1 次调用
-        1 毫秒 _SplitProjectReferencesByFileExistence     1 次调用
-        1 毫秒 DoLinkOutputFilesMatch                     1 次调用
-        1 毫秒 AssignProjectConfiguration                 1 次调用
-        1 毫秒 SplitResourcesByCulture                    1 次调用
-        1 毫秒 GetFrameworkPaths                          1 次调用
-        1 毫秒 _GetProjectReferenceTargetFrameworkProperties   1 次调用
+        1 毫秒 ComputeCLCompileGeneratedXDCFiles          1 次调用
+        1 毫秒 MakeDirsForLink                            1 次调用
+        1 毫秒 WarnCompileDuplicatedFilename              1 次调用
+        1 毫秒 ComputeManifestInputsTargets               1 次调用
         1 毫秒 _PrepareForBuild                           1 次调用
-        1 毫秒 SetBuildDefaultEnvironmentVariables        1 次调用
-        1 毫秒 SetCABuildNativeEnvironmentVariables       1 次调用
-        1 毫秒 RegisterOutput                             1 次调用
-        3 毫秒 ComputeLinkSwitches                        1 次调用
-        3 毫秒 FinalizeBuildStatus                        1 次调用
-        4 毫秒 MakeDirsForCl                              1 次调用
-        5 毫秒 WarnCompileDuplicatedFilename              1 次调用
-        6 毫秒 CustomBuild                                1 次调用
-        7 毫秒 SetTelemetryEnvironmentVariables           1 次调用
-       12 毫秒 _CheckForInvalidConfigurationAndPlatform   1 次调用
-       14 毫秒 InitializeBuildStatus                      1 次调用
-       20 毫秒 PrepareForBuild                            1 次调用
-       27 毫秒 ResolveProjectReferences                   1 次调用
-      319 毫秒 Link                                       1 次调用
-     2615 毫秒 ClCompile                                  1 次调用
+        1 毫秒 ComputeManifestGeneratedLinkerInputs       1 次调用
+        1 毫秒 MakeDirsForCl                              1 次调用
+        1 毫秒 _SplitProjectReferencesByFileExistence     1 次调用
+        1 毫秒 ComputeLinkImportLibraryOutputsForClean    1 次调用
+        1 毫秒 CustomBuild                                1 次调用
+        1 毫秒 _CheckWindowsSDKInstalled                  1 次调用
+        1 毫秒 FixupCLCompileOptions                      1 次调用
+        1 毫秒 FinalizeBuildStatus                        1 次调用
+        1 毫秒 DoLinkOutputFilesMatch                     1 次调用
+        2 毫秒 _CheckForInvalidConfigurationAndPlatform   1 次调用
+        4 毫秒 PrepareForBuild                            1 次调用
+        5 毫秒 SplitResourcesByCulture                    1 次调用
+        6 毫秒 InitializeBuildStatus                      1 次调用
+      384 毫秒 Link                                       1 次调用
+     2590 毫秒 ClCompile                                  1 次调用
 
 任务性能摘要:
+        0 毫秒 SetEnv                                     8 次调用
+        0 毫秒 AssignProjectConfiguration                 1 次调用
+        0 毫秒 MSBuild                                    1 次调用
+        0 毫秒 CheckVCToolsetVersion                      1 次调用
+        0 毫秒 ReadLinesFromFile                          1 次调用
         0 毫秒 AssignTargetPath                           6 次调用
-        0 毫秒 AssignCulture                              1 次调用
+        0 毫秒 Delete                                     1 次调用
         1 毫秒 MakeDir                                    9 次调用
-        1 毫秒 AssignProjectConfiguration                 1 次调用
-        1 毫秒 MSBuild                                    1 次调用
-        2 毫秒 WriteLinesToFile                           1 次调用
-        2 毫秒 Delete                                     1 次调用
-        2 毫秒 Message                                    3 次调用
-        3 毫秒 SetEnv                                     8 次调用
-        3 毫秒 CheckVCToolsetVersion                      1 次调用
-        3 毫秒 ReadLinesFromFile                          1 次调用
-        6 毫秒 GetOutOfDateItems                          3 次调用
-        9 毫秒 Touch                                      2 次调用
-      317 毫秒 Link                                       1 次调用
-     2614 毫秒 CL                                         1 次调用
+        1 毫秒 Message                                    3 次调用
+        1 毫秒 GetOutOfDateItems                          3 次调用
+        2 毫秒 Touch                                      2 次调用
+        3 毫秒 AssignCulture                              1 次调用
+        5 毫秒 WriteLinesToFile                           2 次调用
+      382 毫秒 Link                                       1 次调用
+     2589 毫秒 CL                                         1 次调用
 
 已成功生成。
 
@@ -1707,11 +1758,23 @@
          D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\Fourier.h(23,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
          D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\Fourier.h(56,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
          D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\Fourier.h(57,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(56,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(57,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(131): warning C4715: “splitedIDCT”: 不是所有的控件路径都返回值
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\bundle.h(171,48): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(58,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(59,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(166,24): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(167,93): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(168,93): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(191,24): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(234,23): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(531,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(721,54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(722,56): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(723,52): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(730,66): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(132): warning C4715: “splitedIDCT”: 不是所有的控件路径都返回值
+         D:\Code\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha\OpenCV-ProjectAlpha.cpp(374): warning C4715: “balanceRangeCheck”: 不是所有的控件路径都返回值
 
-    7 个警告
+    19 个警告
     0 个错误
 
-已用时间 00:00:03.07
+已用时间 00:00:03.00
